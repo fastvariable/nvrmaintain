@@ -61,18 +61,16 @@
 ###### This is no method is no longer available on Bloxstrap because pizzaboxer a stupid Int Bool stupid ass check
 
 # List Navigation
-* **[Rendering](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file#rendering)**
-* **[Lightning Technologies](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file##lightning-technologies)**
-* **[Graphical](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file#graphical-settings)**
-* **[Quality of Life](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file#quality-of-life)**
-* **[UI](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file#user-interfacevisuals)**
-* **[UI X](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file#user-interfacevisuals-experimental)**
-* **[Audio](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file#audio-related)**
-* **[lol](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file#lol)**
-* **[Debug](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file#debug)**
-* **[Links](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file#links)**
-
-<img src="assets/bitdancer.png" width="888"/>
+* **[Rendering](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#rendering)**
+* **[Lightning Technologies](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file##lightning-technologies)**
+* **[Graphical](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#graphical-settings)**
+* **[Quality of Life](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#quality-of-life)**
+* **[UI](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#user-interfacevisuals)**
+* **[UI X](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#user-interfacevisuals-experimental)**
+* **[Audio](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#audio-related)**
+* **[lol](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#lol)**
+* **[Debug](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#debug)**
+* **[Links](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#links)**
 
 <h3 align="center">꧖ꦿꦸ</h3>
 
@@ -237,7 +235,7 @@ High
 ```
 ### Low Render Distance
 > [!TIP]
-> **[View FRM Levels](https://github.com/fastvariable/rbxflags/tree/clean?tab=readme-ov-file#frm-levels)**
+> **[View FRM Levels](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#frm-levels)**
 ```json
 {
     "DFIntDebugRestrictGCDistance": "1"
@@ -1217,7 +1215,7 @@ High
 ### [NVIDIA Shaders Guide](https://github.com/catb0x/Roblox-Shaders-Guide) *[Github Repo Link]*
 ### [EnableAnselForRoblox](https://github.com/DED0026/EnableAnselForRoblox) *[Github Repo Link]*
 ### [Bloxshade](https://github.com/Extravi/Bloxshade) *[Github Repo Link]*
-### [rbxperf](https://github.com/fastvariable/rbxperf) *[Github Repo Link]*
+### [rbxperf](https://github.com/luafv/rbxperf) *[Github Repo Link]*
 ### [Bindable Lag Switch](https://github.com/Hermivore8151/Bindable-LagSwitch) *[Github Repo Link]*
 ### [MEGA FLAG LIST](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712) *[Bloxstrap Server]*
 ### [rbxservers.xyz](https://rbxservers.xyz/) *[Website]*
