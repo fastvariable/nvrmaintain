@@ -1,3 +1,6 @@
+> [!NOTE]
+> If you find our repository useful don't forget to star!
+
 <h3 align="center">
   <img src="https://c.tenor.com/lMiG1jLB7aIAAAAC/tenor.gif" width="256" alt="Playboi Carti">
 </h3>
@@ -7,11 +10,10 @@
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
-#### Version: `9.1.24` `CLEAN`
-* **142 Currently Listed**
-* **`Self Explanatory 7`** **`Removes translated supported message on join`** **`Allows you to customize which languages are available for the chat translation feature`** **`Increased Particles in Low graphics quality`**
-* **Updated `Custom Accessory Positions` to work as of `8.26.24`**
-* **`Blue Theme`** **`5 Decimal Sensitivity Precision`**
+#### Versioqn: `9.13.24` `CLEAn`
+* **150 Currently Listed**
+* **`Enable Genres`** **`Rename Communications to Voice Enabled`** **`old luapp chat button`** **Disable Toast Notifications**
+* **`Remove Parental Controls Tab`** **`Legacy Search`** **`Disable Profile Picture Customization Tab`** **`Render Occlusion Culling`**
 * **[Upcoming Updates Progress](assets/lists/updates/progress.md)**
 
 ## Bloxstrap How to Use:
@@ -40,19 +42,32 @@
 4. **Your configuration is complete!**
 
 ###### This is no method is no longer available on Bloxstrap
-# List Navigation
-* **[Rendering](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#rendering)**
-* **[Lightning Technologies](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file##lightning-technologies)**
-* **[Graphical](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#graphical-settings)**
-* **[Quality of Life](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#quality-of-life)**
-* **[UI](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#user-interfacevisuals)**
-* **[UI X](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#user-interfacevisuals-experimental)**
-* **[Audio](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#audio-related)**
-* **[lol](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#lol)**
-* **[Debug](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#debug)**
-* **[Links](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#links)**
 
-<h3 align="center">꧖ꦿꦸ</h3>
+# List Navigation
+* **[Rendering](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#rendering)**
+* **[Lightning Technologies](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file##lightning-technologies)**
+* **[Graphical](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#graphical-settings)**
+* **[Quality of Life](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#quality-of-life)**
+* **[UI](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals)**
+* **[UI X](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals-experimental)**
+* **[Audio](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#audio-related)**
+* **[Physics](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#physics-abusive)**
+* **[lol](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#lol)**
+* **[Debug](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#debug)**
+* **[Links](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#links)**
+
+<div align="center">
+
+<b>
+I've been up, baby<br>
+Heavy reminiscin'<br>
+Heavy on the missing you<br>
+Wish it was different than what it was
+</b>
+
+</div>
+
+<h5 align="center">•</h5>
 
 <h1 align="center">Rendering API</h1>
 
@@ -116,6 +131,14 @@
 
 <h1 align="center">Graphical Settings</h1>
 
+### Render Occlusion Culling
+###### [@CloneTrooper1019](https://x.com/MaximumADHD/status/1832331711486865769)
+```json
+{
+    "DFFlagUseVisBugChecks": "True",
+    "FFlagEnableVisBugChecks27": "True"
+}
+```
 ### Increased Particles on low graphics
 ###### @teeenoob
 ```json
@@ -215,7 +238,7 @@ High
 ```
 ### Low Render Distance
 > [!TIP]
-> **[View FRM Levels](https://github.com/fastvariable/nvrmaintain/tree/clean?tab=readme-ov-file#frm-levels)**
+> **[View FRM Levels](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#frm-levels)**
 ```json
 {
     "DFIntDebugRestrictGCDistance": "1"
@@ -337,7 +360,7 @@ High
 ```
 ### Texture Manager
 > [!TIP]
-> -1 Removes almost everything, 1-4 Blurry, 5-7 low quality also removes studs, 8 Removes almost everything (this is better)
+> 1-4 Blurry, 5-7 low quality also removes studs, 8 Removes almost everything
 ```json
 {
     "FIntDebugTextureManagerSkipMips": "-1"
@@ -617,6 +640,42 @@ High
 
 <h1 align="center">User Interface/Visuals</h1>
 
+### Remove Parental Controls Tab
+```json
+{
+    "FFlagLuaAppsEnableParentalControlsTab": "False"
+}
+```
+### Legacy Search
+```json
+{
+    "FFlagAXSearchLandingPageIXPEnabled4": "False"
+}
+```
+### Disable Profile Picture Customization
+```json
+{
+"FFlagAXDefaultAvatarToShopEnabled3": "False"
+}
+```
+### old luaapp chat button
+```json
+{
+    "FStringNewChatTabExperimentLayerValue": "2024MUSIC"
+}
+```
+### Disable Toast Notifications
+```json
+{
+    "FFlagToastNotificationsProtocolEnabled2": "False"
+}
+```
+### Rename Communications to Voice Enabled
+```json
+{
+    "FFlagGameDetailsDecoupledCommunication": "False"
+}
+```
 ### Break Reduced Motion V4
 ###### @kezcn
 ![image](https://github.com/user-attachments/assets/cfdc9732-084e-4c09-bc43-8039a3bf0d89)
@@ -881,6 +940,13 @@ High
 ```
 
 <h1 align="center">User Interface/Visuals Experimental</h1>
+
+### Enable Genres
+```json
+{
+    "FFlagLuaAppGenreUnderConstruction": "False"
+}
+```
 
 ### Custom Accessory Positions
 ```
@@ -1222,7 +1288,6 @@ High
 <p align="center"><a href="https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt">FVariables.txt</a></p>
 <p align="center"><a href="https://github.com/MaximumADHD/Roblox-FFlag-Tracker">Roblox FFlag Tracker</a></p>
 <h3 align="center">Sources</h3>
-<p align="center">
 <p align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a></p>
 <p align="center">The people who found these fastflags</p>
 <div align="center">
@@ -1267,5 +1332,4 @@ High
   </tr>
 </table>
 </div>
-</h3>
 <h4 align="center">© 2024 fastvariable</h4>
