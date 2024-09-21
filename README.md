@@ -43,19 +43,16 @@
 ###### This is no method is no longer available on Bloxstrap because pizzaboxer a stupid Int Bool stupid ass check
 
 # List Navigation
-* **[Rendering](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#rendering)**
-* **[Lightning Technologies](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file##lightning-technologies)**
-* **[Graphical](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#graphical-settings)**
-* **[Quality of Life](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#quality-of-life)**
-* **[UI](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals)**
-* **[UI X](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals-experimental)**
-* **[Audio](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#audio-related)**
-* **[Physics](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#physics-abusive)**
-* **[Abusive Visuals](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#abusive-visuals)**
-* **[Abusive Game Presets](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#abusive-game-specific-presets)**
-* **[lol](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#lol)**
-* **[Debug](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#debug)**
-* **[Links](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#links)**
+* **[Rendering](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#rendering)**
+* **[Lightning Technologies](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file##lightning-technologies)**
+* **[Graphical](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#graphical-settings)**
+* **[Quality of Life](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#quality-of-life)**
+* **[UI](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals)**
+* **[UI X](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals-experimental)**
+* **[Audio](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#audio-related)**
+* **[lol](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#lol)**
+* **[Debug](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#debug)**
+* **[Links](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#links)**
 
 <div align="center">
 
@@ -239,7 +236,7 @@ High
 ```
 ### Low Render Distance
 > [!TIP]
-> **[View FRM Levels](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#frm-levels)**
+> **[View FRM Levels](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#frm-levels)**
 ```json
 {
     "DFIntDebugRestrictGCDistance": "1"
@@ -1325,9 +1322,7 @@ High
 <p align="center"><a href="https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt">FVariables.txt</a></p>
 <p align="center"><a href="https://github.com/MaximumADHD/Roblox-FFlag-Tracker">Roblox FFlag Tracker</a></p>
 <h3 align="center">Sources</h3>
-<p align="center"><a href="https://discord.gg/YvbuWggPC6">Roblox Glitching Community</a></p>
 <p align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a></p>
-<p align="center">The people who found these fastflags</p>
 <div align="center">
 <table>
   <tr>
@@ -1371,9 +1366,8 @@ High
 </table>
 <div align="center">
   
-  [![License](https://img.shields.io/github/license/pizzaboxer/bloxstrap)](https://github.com/fastvariable//nvrmaintain/blob/main/LICENSE)
-  [![Version](https://img.shields.io/github/v/release/fastvariable//nvrmaintain?color=7a39fb)](https://github.com/fastvariable//nvrmaintain/releases/latest)
-  [![Discord](https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff)](https://discord.gg/HNe7fzR9xg)
+  [![License](https://img.shields.io/github/license/pizzaboxer/bloxstrap)](https://github.com/fastvariable/nvrmaintain/blob/main/LICENSE)
+  [![Version](https://img.shields.io/github/v/release/fastvariable/nvrmaintain?color=7a39fb)](https://github.com/fastvariable/nvrmaintain/releases/latest)
 
 </div>
-<h4 align="center">© 2024 fastvariable All Rights Reserved.</h4>
+<h4 align="center">© 2024 fastvariable</h4>
