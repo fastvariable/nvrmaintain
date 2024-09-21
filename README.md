@@ -2,18 +2,17 @@
 > If you find our repository useful don't forget to star!
 
 <h3 align="center">
-  <img src="https://c.tenor.com/lMiG1jLB7aIAAAAC/tenor.gif" width="256" alt="Playboi Carti">
+  <img src="assets/pbc.gif" width="256" alt="Playboi Carti">
 </h3>
 
-<h1 align="center">#FlagsCol#FAKE#NVRMAINTAIN</h1>
+<h1 align="center">#FLAG$COL#FAKE#NVRMAINTAIN</h1>
 
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
-#### Versioqn: `9.13.24` `CLEAn`
-* **150 Currently Listed**
-* **`Enable Genres`** **`Rename Communications to Voice Enabled`** **`old luapp chat button`** **Disable Toast Notifications**
-* **`Remove Parental Controls Tab`** **`Legacy Search`** **`Disable Profile Picture Customization Tab`** **`Render Occlusion Culling`**
+#### Versioqn: `9.21.24` `CLEAN`
+* **155 Currently Listed**
+* **Fix `V1`** **Fix `Blue Theme`** **`Old Chrome UI Topbar`** **`Left Healthbar for Chrome UI Topbar`** **`THICK Healthbar`** **`🍔`**
 * **[Upcoming Updates Progress](assets/lists/updates/progress.md)**
 
 ## Bloxstrap How to Use:
@@ -41,20 +40,22 @@
 3. **Include a Place ID after the semicolon. Examples: `True;4483381587`, `1;4483381587`.**
 4. **Your configuration is complete!**
 
-###### This is no method is no longer available on Bloxstrap
+###### This is no method is no longer available on Bloxstrap because pizzaboxer a stupid Int Bool stupid ass check
 
 # List Navigation
-* **[Rendering](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#rendering)**
-* **[Lightning Technologies](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file##lightning-technologies)**
-* **[Graphical](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#graphical-settings)**
-* **[Quality of Life](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#quality-of-life)**
-* **[UI](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals)**
-* **[UI X](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals-experimental)**
-* **[Audio](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#audio-related)**
-* **[Physics](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#physics-abusive)**
-* **[lol](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#lol)**
-* **[Debug](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#debug)**
-* **[Links](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#links)**
+* **[Rendering](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#rendering)**
+* **[Lightning Technologies](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file##lightning-technologies)**
+* **[Graphical](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#graphical-settings)**
+* **[Quality of Life](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#quality-of-life)**
+* **[UI](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals)**
+* **[UI X](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals-experimental)**
+* **[Audio](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#audio-related)**
+* **[Physics](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#physics-abusive)**
+* **[Abusive Visuals](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#abusive-visuals)**
+* **[Abusive Game Presets](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#abusive-game-specific-presets)**
+* **[lol](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#lol)**
+* **[Debug](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#debug)**
+* **[Links](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#links)**
 
 <div align="center">
 
@@ -238,7 +239,7 @@ High
 ```
 ### Low Render Distance
 > [!TIP]
-> **[View FRM Levels](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#frm-levels)**
+> **[View FRM Levels](https://github.com/fastvariable//nvrmaintain/tree/master?tab=readme-ov-file#frm-levels)**
 ```json
 {
     "DFIntDebugRestrictGCDistance": "1"
@@ -420,13 +421,18 @@ High
 ```
 
 ### Allows you to customize which languages are available for the chat translation feature
-
 > [!IMPORTANT]
 > English cannot be removed.
 ###### @thefrenchguy4
 ```json
 {
     "FStringChatTranslationEnabledLocales": "es_es,fr_fr,pt_br,de_de,it_it,ja_jp,ko_kr,id_id,tr_tr,zh_cn,zh_tw,th_th,pl_pl,vi_vn,ru_ru,"
+}
+```
+### Remove long recommended section in homepage
+```json
+{
+    "FIntGameGridFlexFeedItemTileNumPerFeed": "0"
 }
 ```
 ### Disable Captures Keybind
@@ -640,6 +646,18 @@ High
 
 <h1 align="center">User Interface/Visuals</h1>
 
+### 🍔
+```json
+{
+    "FFlagEnableHamburgerIcon": "True"
+}
+```
+### THICK Healthbar
+```
+{
+    "FFlagUpdateHealthBar": "True"
+}
+```
 ### Remove Parental Controls Tab
 ```json
 {
@@ -705,7 +723,8 @@ High
     "FFlagEnableMenuControlsABTest": "False",
     "FFlagEnableMenuModernizationABTest": "False",
     "FFlagEnableMenuModernizationABTest2": "False",
-    "FFlagEnableV3MenuABTest3": "False"
+    "FFlagEnableV3MenuABTest3": "False",
+    "FFlagFixReportButtonCutOff": "False"
 }
 ```
 ### V2 Menu
@@ -813,7 +832,7 @@ High
 ### Blue Theme
 ```json
 {
-    "FFlagLuaAppEnableFoundationColors": "True"
+    "FFlagLuaAppEnableFoundationColors2": "True"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
@@ -948,8 +967,8 @@ High
 }
 ```
 
-### Custom Accessory Positions
-```
+### Custom Accessory Positions <sup>Working in game</sup>
+```json
 {
     "FFlagAXAccessoryAdjustment": "True",
     "FFlagAXAccessoryAdjustmentIXPEnabled": "True",
@@ -975,6 +994,24 @@ High
 ```json
 {
     "FFlagEnableBetterHapticsResultHandling": "True"
+}
+```
+### Old Chrome UI Topbar
+```json
+{
+    "FFlagEnableHamburgerIcon": "False",
+    "FFlagEnableUnibarV4IA": "False",
+    "FFlagEnableAlwaysOpenUnibar2": "False",
+    "FFlagEnableUnibarSneakPeak": "False",
+    "FFlagUseNewUnibarIcon": "False",
+    "FFlagEnableChromePinIntegrations2": "True"
+}
+```
+### Left Healthbar on Chrome UI Topbar
+```
+{
+    "FFlagEnableUnibarMaxDefaultOpen": "True",
+    "FFlagUpdateHealthBar": "False"
 }
 ```
 ### Chrome UI TopBar
@@ -1041,7 +1078,7 @@ High
 ### Audio Occlusion
 ```json
 {
-    "FFlagSoundsUsePhysicalVelocity": "True"
+    "FFlagDebugEnableDirectAudioOcclusion2": "True"
 }
 ```
 ### Limit audios that are being played
@@ -1133,7 +1170,7 @@ High
 }
 ```
 > [!TIP]
-> 
+> e.g
 ```json
 {
     "FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
@@ -1261,7 +1298,7 @@ High
 ### [NVIDIA Shaders Guide](https://github.com/catb0x/Roblox-Shaders-Guide) *[Github Repo Link]*
 ### [EnableAnselForRoblox](https://github.com/DED0026/EnableAnselForRoblox) *[Github Repo Link]*
 ### [Bloxshade](https://github.com/Extravi/Bloxshade) *[Github Repo Link]*
-### [rbxperf](https://github.com/luafv/rbxperf) *[Github Repo Link]*
+### [rbxperf](https://github.com/fastvariable/rbxperf) *[Github Repo Link]*
 ### [Bindable Lag Switch](https://github.com/Hermivore8151/Bindable-LagSwitch) *[Github Repo Link]*
 ### [MEGA FLAG LIST](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712) *[Bloxstrap Server]*
 ### [rbxservers.xyz](https://rbxservers.xyz/) *[Website]*
@@ -1269,17 +1306,17 @@ High
 <h4 align="center">⁺ You've reached the bottom of the list! ⁺</h4>
 
 <h3 align="center">
-  <a href="https://open.spotify.com/track/4b7vk8SRcYgnxpk0JOIS7r">
-    <img src="https://shop.travisscott.com/cdn/shop/files/DaysRealBlue_1500x.jpg" width="256" alt="Listen on Spotify">
+  <a href="https://open.spotify.com/track/2cZOYofOX4d6g0OXxkaIjA">
+    <img src="https://i.scdn.co/image/ab67616d0000b27373e7e87fdd649b0e6dde2ca9" width="256" alt="Listen on Spotify">
   </a>
 </h3>
 
 
-<h3 align="center">Drugs You Should Try It - Travis Scott</h3>
+<h3 align="center">ALL RED - Playboi Carti</h3>
 
 
 <h1 align="center">
-  <a href="https://open.spotify.com/track/4b7vk8SRcYgnxpk0JOIS7r">
+  <a href="https://open.spotify.com/track/2cZOYofOX4d6g0OXxkaIjA">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" width="100">
   </a>
 </h1>
@@ -1288,6 +1325,7 @@ High
 <p align="center"><a href="https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt">FVariables.txt</a></p>
 <p align="center"><a href="https://github.com/MaximumADHD/Roblox-FFlag-Tracker">Roblox FFlag Tracker</a></p>
 <h3 align="center">Sources</h3>
+<p align="center"><a href="https://discord.gg/YvbuWggPC6">Roblox Glitching Community</a></p>
 <p align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a></p>
 <p align="center">The people who found these fastflags</p>
 <div align="center">
@@ -1331,5 +1369,11 @@ High
     <td>A fastvariable that can change at run-time, and<br/>automatically updates every 5 minutes.</td>
   </tr>
 </table>
+<div align="center">
+  
+  [![License](https://img.shields.io/github/license/pizzaboxer/bloxstrap)](https://github.com/fastvariable//nvrmaintain/blob/main/LICENSE)
+  [![Version](https://img.shields.io/github/v/release/fastvariable//nvrmaintain?color=7a39fb)](https://github.com/fastvariable//nvrmaintain/releases/latest)
+  [![Discord](https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff)](https://discord.gg/HNe7fzR9xg)
+
 </div>
-<h4 align="center">© 2024 fastvariable</h4>
+<h4 align="center">© 2024 fastvariable All Rights Reserved.</h4>
