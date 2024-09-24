@@ -10,7 +10,7 @@
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
-#### Versioqn: `9.21.24` `CLEAN`
+#### Versioqn: `9.24.24` `CLEAN`
 * **155 Currently Listed**
 * **Fix `V1`** **Fix `Blue Theme`** **`Old Chrome UI Topbar`** **`Left Healthbar for Chrome UI Topbar`** **`THICK Healthbar`** **`🍔`**
 * **[Upcoming Updates Progress](assets/lists/updates/progress.md)**
@@ -829,7 +829,7 @@ High
 ### Blue Theme
 ```json
 {
-    "FFlagLuaAppEnableFoundationColors2": "True"
+    "FFlagLuaAppEnableFoundationColors3": "True"
 }
 ```
 ### No Transparency V4 Menu **(2023)**
@@ -963,7 +963,6 @@ High
     "FFlagLuaAppGenreUnderConstruction": "False"
 }
 ```
-
 ### Custom Accessory Positions <sup>Working in game</sup>
 ```json
 {
