@@ -2,7 +2,7 @@
 > If you find our repository useful don't forget to star!
 
 <h3 align="center">
-  <img src="assets/timeless.gif" width="256" alt="Playboi Carti">
+  <img src="assets/pbc.gif" width="256" alt="Playboi Carti">
 </h3>
 
 <h1 align="center">#FLAG$COL#FAKE#NVRMAINTAIN</h1>
@@ -45,7 +45,7 @@
 3. **Include a Place ID after the semicolon. Examples: `True;4483381587`, `1;4483381587`.**
 4. **Your configuration is complete!**
 
-###### This is no method is no longer available on Bloxstrap because pizzaboxer a stupid Int Bool stupid ass check
+###### This is no method is no longer available on Bloxstrap
 
 # List Navigation
 * **[Rendering](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#rendering)**
