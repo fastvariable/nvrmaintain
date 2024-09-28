@@ -10,9 +10,14 @@
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
-#### Versioqn: `9.24.24` `CLEAN`
-* **155 Currently Listed**
-* **Fix `V1`** **Fix `Blue Theme`** **`Old Chrome UI Topbar`** **`Left Healthbar for Chrome UI Topbar`** **`THICK Healthbar`** **`🍔`**
+#### Version: `09.27.24` `CLEAN`
+* **158 Currently Listed**
+* **`Disable VC`**
+* **Update `Render Occlusion`**
+* **Update `Legacy Chrome UI Topbar`**
+* **Update `Legacy Chrome UI Extras`**
+* **`Enable Events Tab/Change Events Tab URL`**
+* **`old luaapp chat button` extra**
 * **[Upcoming Updates Progress](assets/lists/updates/progress.md)**
 
 ## Bloxstrap How to Use:
@@ -134,7 +139,9 @@ Wish it was different than what it was
 ```json
 {
     "DFFlagUseVisBugChecks": "True",
-    "FFlagEnableVisBugChecks27": "True"
+    "FFlagEnableVisBugChecks27": "True",
+    "FFlagVisBugChecksThreadYield": "True",
+    "FIntEnableVisBugChecksHundredthPercent27": "100"
 }
 ```
 ### Increased Particles on low graphics
@@ -402,6 +409,16 @@ High
 
 <h1 align="center">Quality of Life</h1>
 
+### Disable VC
+> [!NOTE]
+> Setting this to `True` will not do anything
+> [!TIP]
+> Use PlaceFilter for specific games, Use a new Bloxstrap build from GitHub Actions in Bloxstrap Repository to be able to use PlaceFilter
+```json
+{
+    "DFFlagVoiceChat4": "False"
+}
+```
 ### 5 Decimal Sensitivity Precision
 ```json
 {
@@ -670,13 +687,18 @@ High
 ### Disable Profile Picture Customization
 ```json
 {
-"FFlagAXDefaultAvatarToShopEnabled3": "False"
+     "FFlagAXDefaultAvatarToShopEnabled3": "False"
 }
 ```
 ### old luaapp chat button
 ```json
 {
     "FStringNewChatTabExperimentLayerValue": "2024MUSIC"
+}
+```
+```
+{
+    "FFlagEnableNewChatTabExperiment5": "False"
 }
 ```
 ### Disable Toast Notifications
@@ -954,6 +976,13 @@ High
     "FFlagDebugEnableNewWebView2DevTool": "True"
 }
 ```
+### Enable Events Tab/Change Events Tab URL
+```json
+{
+    "FFlagPlatformEventEnabled2": "True",
+    "FStringPlatformEventUrl": "AnyLinkHere"
+}
+```
 
 <h1 align="center">User Interface/Visuals Experimental</h1>
 
@@ -963,6 +992,7 @@ High
     "FFlagLuaAppGenreUnderConstruction": "False"
 }
 ```
+
 ### Custom Accessory Positions <sup>Working in game</sup>
 ```json
 {
@@ -998,16 +1028,18 @@ High
     "FFlagEnableHamburgerIcon": "False",
     "FFlagEnableUnibarV4IA": "False",
     "FFlagEnableAlwaysOpenUnibar2": "False",
-    "FFlagEnableUnibarSneakPeak": "False",
     "FFlagUseNewUnibarIcon": "False",
-    "FFlagEnableChromePinIntegrations2": "True"
+    "FFlagUseSelfieViewFlatIcon": "False",
+    "FFlagUnibarRespawn": "False",
+    "FFlagEnableChromePinIntegrations2": "False"
 }
 ```
-### Left Healthbar on Chrome UI Topbar
-```
+### Extra + Left Healthbar on Chrome UI Topbar
+```json
 {
     "FFlagEnableUnibarMaxDefaultOpen": "True",
-    "FFlagUpdateHealthBar": "False"
+    "FFlagUpdateHealthBar": "False",
+    "FFlagUseNewPinIcon": "False"
 }
 ```
 ### Chrome UI TopBar
@@ -1165,8 +1197,7 @@ High
     "FStringDebugShowFlagState": "FLAG_HERE"
 }
 ```
-> [!TIP]
-> e.g
+#### e.g
 ```json
 {
     "FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
@@ -1294,7 +1325,7 @@ High
 ### [NVIDIA Shaders Guide](https://github.com/catb0x/Roblox-Shaders-Guide) *[Github Repo Link]*
 ### [EnableAnselForRoblox](https://github.com/DED0026/EnableAnselForRoblox) *[Github Repo Link]*
 ### [Bloxshade](https://github.com/Extravi/Bloxshade) *[Github Repo Link]*
-### [rbxperf](https://github.com/luafv/rbxperf) *[Github Repo Link]*
+### [rbxperf](https://github.com/espresso-soft/rbxperf) *[Github Repo Link]*
 ### [Bindable Lag Switch](https://github.com/Hermivore8151/Bindable-LagSwitch) *[Github Repo Link]*
 ### [MEGA FLAG LIST](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712) *[Bloxstrap Server]*
 ### [rbxservers.xyz](https://rbxservers.xyz/) *[Website]*
@@ -1302,17 +1333,17 @@ High
 <h4 align="center">⁺ You've reached the bottom of the list! ⁺</h4>
 
 <h3 align="center">
-  <a href="https://open.spotify.com/track/2cZOYofOX4d6g0OXxkaIjA">
-    <img src="https://i.scdn.co/image/ab67616d0000b27373e7e87fdd649b0e6dde2ca9" width="256" alt="Listen on Spotify">
+  <a href="https://open.spotify.com/track/1Es7AUAhQvapIcoh3qMKDL">
+    <img src="https://i.scdn.co/image/ab67616d0000b27310daba582005ee9d0f29b6ce" width="256" alt="Listen on Spotify">
   </a>
 </h3>
 
 
-<h3 align="center">ALL RED - Playboi Carti</h3>
+<h3 align="center">Timeless - The Weeknd, Playboi Carti</h3>
 
 
 <h1 align="center">
-  <a href="https://open.spotify.com/track/2cZOYofOX4d6g0OXxkaIjA">
+  <a href="https://open.spotify.com/track/1Es7AUAhQvapIcoh3qMKDL">
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" width="100">
   </a>
 </h1>
@@ -1321,7 +1352,7 @@ High
 <p align="center"><a href="https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt">FVariables.txt</a></p>
 <p align="center"><a href="https://github.com/MaximumADHD/Roblox-FFlag-Tracker">Roblox FFlag Tracker</a></p>
 <h3 align="center">Sources</h3>
-<p align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a></p>
+<p align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a>
 <div align="center">
 <table>
   <tr>
