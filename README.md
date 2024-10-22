@@ -63,7 +63,6 @@
 * **[UI](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals)**
 * **[UI X](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals-experimental)**
 * **[Audio](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#audio-related)**
-* **[Physics](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#physics-abusive)**
 * **[lol](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#lol)**
 * **[Debug](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#debug)**
 
@@ -1348,15 +1347,6 @@ High
 
 <h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
 
-### Noclip + Low Gravity + Fly (Weird Movement)
-```json
-{
-    "DFIntDebugSimPrimalLineSearch": "1",
-    "DFIntDebugSimPrimalWarmstartForce": "160",
-    "DFIntDebugSimPrimalWarmstartVelocity": "102",
-    "FFlagDebugSimDefaultPrimalSolver": "True"
-}
-```
 ### absolutely kill your game quality with fflags known to me
 ##### @dynamitebumblemouth
 ```json
@@ -1432,7 +1422,6 @@ High
   
   [![License](https://img.shields.io/github/license/pizzaboxer/bloxstrap)](https://github.com/fastvariable/nvrmaintain/blob/main/LICENSE)
   [![Version](https://img.shields.io/github/v/release/fastvariable/nvrmaintain?color=7a39fb)](https://github.com/fastvariable/nvrmaintain/releases/latest)
-  [![Discord](https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff)](https://discord.gg/HNe7fzR9xg)
 
 </div>
-<h4 align="center">© 2024 fastvariable.</h4>
+<h4 align="center">© 2024 fastvariable</h4>
