@@ -7,57 +7,65 @@
 
 <h1 align="center">#FLAG$COL#FAKE#NVRMAINTAIN</h1>
 
+<div align="center">
+
+`10.22.24`
+
+</div>
+
 > [!CAUTION]
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
-#### Version: `09.27.24` `CLEAN`
-* **158 Currently Listed**
-* **`Disable VC`**
-* **Update `Render Occlusion`**
-* **Update `Legacy Chrome UI Topbar`**
-* **Update `Legacy Chrome UI Extras`**
-* **`Enable Events Tab/Change Events Tab URL`**
-* **`old luaapp chat button` extra**
-* **[Upcoming Updates Progress](assets/lists/updates/progress.md)**
-
 ## Bloxstrap How to Use:
-1. **Open the [Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap).**
-2. **Navigate to `Fast Flags` >> `Fast Flags Editor` >> `Add New` >>  `Import Json`.**
-3. **Paste in the JSON.**
-4. **Save and your good to go!**
+1. **Open** the **[Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap)**.
+2. **Navigate** to `Fast Flags` >> `Fast Flags Editor` >> `Add New` >>  `Import Json`.**
+3. **Paste** in the **JSON**.
+4. **Save** and your good to go!
 
 <img src="/assets/tutorial260.gif" width="750"/>
 
 ## Normal Roblox Bootstrapper How to Use:
 ###### You can also do Roblox Studio
-1. **Navigate to your Roblox Installation directory. Typically found at `%localappdata%\Roblox\Versions\` or `C:\Program Files (x86)\Roblox\Versions`.**
-2. **Identify the folder `version-xxxxxxxxxxxxxxxx` ~~containing `RobloxPlayerBeta.exe`~~ You can do this for Roblox Studio too.**
-3. **Create a new folder named `ClientSettings`. Inside this folder, place the file `ClientAppSettings.json`.**
-4. **Paste the JSON into `ClientAppSettings.json`. (You can utilize ChatGPT to format multiple JSONs for clarity if needed)**
-5. **Save and you're good to go!**
+1. **Navigate** to your **Roblox Installation directory**. Typically found at `%localappdata%\Roblox\Versions\` or `C:\Program Files (x86)\Roblox\Versions`.
+2. **Identify** the folder `version-xxxxxxxxxxxxxxxx` ~~containing `RobloxPlayerBeta.exe`~~ **You can do this for Roblox Studio too.**
+3. **Create a new folder named `ClientSettings`. Inside this folder, **add** a file `ClientAppSettings.json`.**
+4. **Paste** the **JSON** into `ClientAppSettings.json`. (**You can utilize ChatGPT to format multiple JSONs for clarity if needed**)
+5. **Save** and you're good to go!
 ###### Do note that after roblox updates you have to do this process again
 
 [Watch a Video Tutorial](https://streamable.com/rk5an6)
 
-## How to Use _PlaceFilter
-1. **Add `_PlaceFilter` after the Fast Flag name.**
-2. **Add a semicolon after the Value (`;`). Examples: `True;`, `1;`.**
-3. **Include a Place ID after the semicolon. Examples: `True;4483381587`, `1;4483381587`.**
-4. **Your configuration is complete!**
+## Android Rootless Roblox (MT Manager) How to Use:
+> [!CAUTION]
+> Roblox is implementing anti-tamper measures on mobile. Proceed at your own risk.
 
-###### This is no method is no longer available on Bloxstrap
+1. **Download a Roblox APK** file from a trusted source. 
+2. **Open MT Manager** and navigate to the **Roblox APK** file.
+3. Tap on the APK and select **View**. `/assets` >> `main.1.com.roblox.client.obb` and click on it then **Archive Viewer**.
+4. Create a new folder named **`ClientSettings`**.
+5. Place your **`ClientAppSettings.json`** file inside the `ClientSettings` folder. (You can use ChatGPT to help format JSON files for clarity if needed)
+6. Tap on the back button (`..`) to exit the archive. It will prompt you to update the file `main.1.com.roblox.client.obb`—click **OK**.
+7. Long-press the **Roblox APK** file, choose **Sign File**, and click **OK** with default settings.
+8. **Install the modified APK.**
+###### This process must be repeated whenever a new Roblox build is released, as the modifications will not carry over to new updates.
+
+## How to Use _PlaceFilter
+1. **Add** `_PlaceFilter` **after** the **Fast Flag name**.
+2. **Add** a **semicolon after** the Value (`;`). **Examples**: `True;`, `1;`.**
+3. **Include** a **Place ID after** the **semicolon**. **Examples**: `True;4483381587`, `1;4483381587`.
+4. Your configuration is **complete**!**
 
 # List Navigation
 * **[Rendering](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#rendering)**
-* **[Lightning Technologies](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file##lightning-technologies)**
+* **[Lightning Technologies](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#lightning-technologies)**
 * **[Graphical](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#graphical-settings)**
 * **[Quality of Life](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#quality-of-life)**
 * **[UI](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals)**
 * **[UI X](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#user-interfacevisuals-experimental)**
 * **[Audio](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#audio-related)**
+* **[Physics](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#physics-abusive)**
 * **[lol](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#lol)**
 * **[Debug](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#debug)**
-* **[Links](https://github.com/fastvariable/nvrmaintain/tree/master?tab=readme-ov-file#links)**
 
 <div align="center">
 
@@ -131,9 +139,34 @@ Wish it was different than what it was
     "FFlagDebugForceFutureIsBrightPhase3": "True"
 }
 ```
+### Unified Lighting
+```json
+{
+    "FFlagRenderUnifiedLighting6": "True",
+    "FFlagUnifiedLightingBetaFeature": "True"
+}
+```
 
 <h1 align="center">Graphical Settings</h1>
 
+### Increased Grass Motion & No Grass Motion
+```json
+{
+    "FIntGrassMovementReducedMotionFactor": "999"
+}
+```
+```json
+{
+    "FIntGrassMovementReducedMotionFactor": "0"
+}
+```
+### No Bloom/Clouds
+###### @burgerboxer
+```json
+{
+    "FFlagRenderNoLowFrmBloom": "False"
+}
+```
 ### Render Occlusion Culling
 ###### [@CloneTrooper1019](https://x.com/MaximumADHD/status/1832331711486865769)
 ```json
@@ -412,6 +445,7 @@ High
 ### Disable VC
 > [!NOTE]
 > Setting this to `True` will not do anything
+
 > [!TIP]
 > Use PlaceFilter for specific games, Use a new Bloxstrap build from GitHub Actions in Bloxstrap Repository to be able to use PlaceFilter
 ```json
@@ -657,17 +691,31 @@ High
     "FFlagHandleAltEnterFullscreenManually": "False"
 }
 ```
+### Change Age Rating Learn More Link
+```json
+{
+    "FStringExperienceGuidelinesExplainedPageUrl": "https://playboicarti.com"
+}
+```
 
 <h1 align="center">User Interface/Visuals</h1>
 
 ### 🍔
+> [!NOTE]
+> **Chrome UI only**
 ```json
 {
     "FFlagEnableHamburgerIcon": "True"
 }
 ```
-### THICK Healthbar
+### Mini Webview
+```json
+{
+    "FFlagWebViewProtocol": "False"
+}
 ```
+### THICK Healthbar
+```json
 {
     "FFlagUpdateHealthBar": "True"
 }
@@ -733,16 +781,10 @@ High
     "FFlagEnableNavBarLabels3": "False"
 }
 ```
-### V1 Menu
+### V1 Menu Fix
 ```json
 {
-    "FFlagDisableNewIGMinDUA": "True",
-    "FFlagEnableInGameMenuControls": "False",
-    "FFlagEnableInGameMenuModernization": "False",
-    "FFlagEnableMenuControlsABTest": "False",
-    "FFlagEnableMenuModernizationABTest": "False",
-    "FFlagEnableMenuModernizationABTest2": "False",
-    "FFlagEnableV3MenuABTest3": "False",
+    "FFlagSettingsHubIndependentBackgroundVisibility": "True",
     "FFlagFixReportButtonCutOff": "False"
 }
 ```
@@ -854,6 +896,7 @@ High
     "FFlagLuaAppEnableFoundationColors3": "True"
 }
 ```
+
 ### No Transparency V4 Menu **(2023)**
 ```json
 {
@@ -985,13 +1028,6 @@ High
 ```
 
 <h1 align="center">User Interface/Visuals Experimental</h1>
-
-### Enable Genres
-```json
-{
-    "FFlagLuaAppGenreUnderConstruction": "False"
-}
-```
 
 ### Custom Accessory Positions <sup>Working in game</sup>
 ```json
@@ -1222,6 +1258,12 @@ High
     "DFIntRemoteEventSingleInvocationSizeLimit": "1"
 }
 ```
+### Show All Error Strings
+```json
+{
+    "FFlagDebugEnableErrorStringTesting": "True"
+}
+```
 ### logs stuff in dev console
 ```json
 {
@@ -1290,11 +1332,31 @@ High
     "FFlagRenamePassesAndGearToSubscriptionsAndPasses": "False"
 }
 ```
-
+### Self Explanatory 8
+```json
+{
+    "DFFlagDebugSimulateHangAtStartup": "True"
+}
+```
+### Self Explanatory 9
+```json
+{
+    "DFFlagDebugSimulateHangAtShutdown": "True"
+}
+```
 <h1 align="center">Community Presets</h1>
 
 <h4 align="center">We are not accepting performance Fast Flags that aren't listed or known.</h4>
 
+### Noclip + Low Gravity + Fly (Weird Movement)
+```json
+{
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "160",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
 ### absolutely kill your game quality with fflags known to me
 ##### @dynamitebumblemouth
 ```json
@@ -1318,41 +1380,13 @@ High
 }
 ```
 
-<h1 align="center">Links</h1>
-
-### [Make Your Own Custom Roblox Textures](https://github.com/GoingCrazyDude/roblox-custom-textures/blob/main/README.md) *[Github Repo Link]*
-### [Bloxstrap](https://github.com/pizzaboxer/bloxstrap) *[Github Repo Link]*
-### [NVIDIA Shaders Guide](https://github.com/catb0x/Roblox-Shaders-Guide) *[Github Repo Link]*
-### [EnableAnselForRoblox](https://github.com/DED0026/EnableAnselForRoblox) *[Github Repo Link]*
-### [Bloxshade](https://github.com/Extravi/Bloxshade) *[Github Repo Link]*
-### [rbxperf](https://github.com/espresso-soft/rbxperf) *[Github Repo Link]*
-### [Bindable Lag Switch](https://github.com/Hermivore8151/Bindable-LagSwitch) *[Github Repo Link]*
-### [MEGA FLAG LIST](https://discord.com/channels/1099468797410283540/1139962301991104582/1170417533355036712) *[Bloxstrap Server]*
-### [rbxservers.xyz](https://rbxservers.xyz/) *[Website]*
-
 <h4 align="center">⁺ You've reached the bottom of the list! ⁺</h4>
-
-<h3 align="center">
-  <a href="https://open.spotify.com/track/1Es7AUAhQvapIcoh3qMKDL">
-    <img src="https://i.scdn.co/image/ab67616d0000b27310daba582005ee9d0f29b6ce" width="256" alt="Listen on Spotify">
-  </a>
-</h3>
-
-
-<h3 align="center">Timeless - The Weeknd, Playboi Carti</h3>
-
-
-<h1 align="center">
-  <a href="https://open.spotify.com/track/1Es7AUAhQvapIcoh3qMKDL">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" width="100">
-  </a>
-</h1>
 
 <h3 align="center">Tools</h3>
 <p align="center"><a href="https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt">FVariables.txt</a></p>
 <p align="center"><a href="https://github.com/MaximumADHD/Roblox-FFlag-Tracker">Roblox FFlag Tracker</a></p>
 <h3 align="center">Sources</h3>
-<p align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a>
+<p align="center"><a href="https://discord.gg/nKjV3mGq6R">Bloxstrap</a></p>
 <div align="center">
 <table>
   <tr>
@@ -1398,6 +1432,7 @@ High
   
   [![License](https://img.shields.io/github/license/pizzaboxer/bloxstrap)](https://github.com/fastvariable/nvrmaintain/blob/main/LICENSE)
   [![Version](https://img.shields.io/github/v/release/fastvariable/nvrmaintain?color=7a39fb)](https://github.com/fastvariable/nvrmaintain/releases/latest)
+  [![Discord](https://img.shields.io/discord/1241247795470536725?logo=discord&logoColor=white&label=discord&color=4d3dff)](https://discord.gg/HNe7fzR9xg)
 
 </div>
-<h4 align="center">© 2024 fastvariable</h4>
+<h4 align="center">© 2024 fastvariable.</h4>
