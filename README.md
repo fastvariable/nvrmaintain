@@ -2,7 +2,7 @@
 > If you find our repository useful don't forget to star!
 
 <h3 align="center">
-  <img src="assets/timeless.gif" width="256" alt="Playboi Carti">
+  <img src="assets/pbc.gif" width="256" alt="Playboi Carti">
 </h3>
 
 <h1 align="center">#FLAG$COL#FAKE#NVRMAINTAIN</h1>
@@ -13,8 +13,8 @@
 
 </div>
 
-#### Version: `10.10.24` `F R E A K`
-* **169 Currently Listed**
+> [!CAUTION]
+> **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
 ## Bloxstrap How to Use:
 1. **Open** the **[Bloxstrap Menu](https://github.com/pizzaboxer/bloxstrap)**.
@@ -64,11 +64,8 @@
 * **[UI X](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#user-interfacevisuals-experimental)**
 * **[Audio](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#audio-related)**
 * **[Physics](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#physics-abusive)**
-* **[Abusive Visuals](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#abusive-visuals)**
-* **[Abusive Game Presets](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#abusive-game-specific-presets)**
 * **[lol](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#lol)**
 * **[Debug](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#debug)**
-* **[Links](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#links)**
 
 <div align="center">
 
